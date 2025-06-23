@@ -59,6 +59,8 @@ img{
     color: #fff;
     font-family: "Poppins", sans-serif;
     justify-content: space-around;
+    padding: 15px 0 15px 0;
+    
 }
 section{
   width: 300px;
@@ -70,4 +72,21 @@ section a{
     text-decoration: none;
     color: #4e57dd;
 
+}
+caption{
+    border: solid 3px ;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+    
+}
+table, th, td {
+    border: solid 3px ;
+    padding: 10px;
+}
+#tarefas{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
 }
