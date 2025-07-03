@@ -21,6 +21,7 @@ header{
     align-items: center;
     padding: 20px 15px;
     background-color: #111111;
+    background-attachment: fixed;
 }
 
 .logo{
@@ -63,6 +64,7 @@ img{
     
 }
 section{
+    background-color: #c04f4f;
   width: 300px;
   text-align: center;
   border: solid 3px #535252;
@@ -76,17 +78,20 @@ section a{
 caption{
     border: solid 3px ;
 }
-table{
-    margin: auto;
-    border-collapse: collapse;
-    
-}
+
 table, th, td {
+    
     border: solid 3px ;
     padding: 10px;
 }
 #tarefas{
     margin-top: 20px;
     text-align: center;
-    display: flex;
+    
+}
+.tabela{
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    border-collapse: collapse;
 }
